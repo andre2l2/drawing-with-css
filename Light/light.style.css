@@ -1,0 +1,53 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0081a7;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  top: -50%;
+  transform: translate();
+  width: 10px;
+  height: 100%;
+  background-color: black;
+}
+
+#light {
+  position: absolute;
+  cursor: pointer;
+}
+
+.shine-1,
+.shine-2,
+.shine-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shine-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: rgb(253, 252, 220);
+}
+
+.shine-2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  background: rgba(253, 252, 220, 0.541);
+}
+
+.shine-3 {
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  background: rgba(253, 252, 220, 0.356);
+}
