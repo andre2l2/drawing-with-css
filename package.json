@@ -1,0 +1,21 @@
+{
+  "name": "drawing-with-css",
+  "version": "0.3.0",
+  "description": "I create this repository for draw and animate in CSS and HTML. Where each directory is a project different.",
+  "main": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre2l2/Drawing.git"
+  },
+  "keywords": [
+    "Drowing",
+    "CSS"
+  ],
+  "author": "Andre Ferreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andre2l2/Drawing/issues"
+  },
+  "homepage": "https://github.com/andre2l2/Drawing#readme"
+}
