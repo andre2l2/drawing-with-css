@@ -1,0 +1,108 @@
+:root {
+  --red: #e63946;
+  --bg-color: #669bbc;
+  --house-color: #f9c74f;
+  --door-color: #bc6c25;
+  --pull-color: #583101;
+  --window-color: #a8dadc;
+  --floor: #283618;
+}
+
+section,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+section main .roof {
+  width: 500px;
+  height: 200px;
+  background-color: var(--red);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+section main .house {
+  width: 500px;
+  height: 300px;
+  background-color: var(--house-color);
+  position: relative;
+}
+
+section main .house .door {
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  transform: translate(-20%, -100%);
+  width: 100px;
+  height: 200px;
+  background-color: var(--door-color);
+  border-top: 10px solid var(--pull-color);
+  border-left: 10px solid var(--pull-color);
+  border-right: 10px solid var(--pull-color);
+}
+
+section main .house .door div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section main .house .door div .door-pull {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--pull-color);
+}
+
+section main .house .window {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  background-color: var(--window-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+section main .house .window-glass {
+  width: 100%;
+  height: 100%;
+  border: 10px solid var(--pull-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section main .house .window-glass div {
+  width: 100%;
+  height: 10px;
+  background-color: var(--pull-color);
+}
+
+section main .house .window-glass div:nth-child(2n) {
+  position: absolute;
+  transform: rotate(90deg);
+}
+
+section .floor {
+  width: 800px;
+  height: 20px;
+  background-color: var(--floor);
+}
