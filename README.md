@@ -9,6 +9,7 @@ Projects:
 - <a href="./House">HOUSE</a>
 - <a href="./Terminal">TERMINAL</a>
 - <a href="./Ipad">IPAD</a>
+- <a href="./Ipad">LOADER</a>
 
 ## how do you contribute this project
 
