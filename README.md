@@ -1,8 +1,12 @@
-# Drawing
+<p align="center">
+    <img src="./dorwing-logo.svg">
+<p/>
 
-I create this repository for draw and animate in CSS. Where each directory is a different project.
+<br/>
 
-Projects:
+I create this repository for draw and animate with CSS. Where each directory is a different project.
+
+## Projects:
 
 - <a href="./Cup">CUP</a>
 - <a href="./Light">LIGHT</a>
