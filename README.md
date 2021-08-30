@@ -2,6 +2,10 @@
     <img src="./dorwing-logo.svg">
 <p/>
 
+<img src="https://img.shields.io/github/stars/andre2l2/drawing-with-css">
+<img src="https://img.shields.io/github/forks/andre2l2/drawing-with-css">
+<img src="https://img.shields.io/github/issues/andre2l2/drawing-with-css">
+
 I create this repository for draw and animate with CSS. Where each directory is a different project.
 
 ## Projects:
