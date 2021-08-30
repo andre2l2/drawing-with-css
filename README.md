@@ -2,8 +2,6 @@
     <img src="./dorwing-logo.svg">
 <p/>
 
-<br/>
-
 I create this repository for draw and animate with CSS. Where each directory is a different project.
 
 ## Projects:
