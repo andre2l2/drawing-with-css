@@ -2,9 +2,11 @@
     <img src="./dorwing-logo.svg">
 <p/>
 
-<img src="https://img.shields.io/github/stars/andre2l2/drawing-with-css">
-<img src="https://img.shields.io/github/forks/andre2l2/drawing-with-css">
-<img src="https://img.shields.io/github/issues/andre2l2/drawing-with-css">
+<p align="center">
+    <img src="https://img.shields.io/github/stars/andre2l2/drawing-with-css">
+    <img src="https://img.shields.io/github/forks/andre2l2/drawing-with-css">
+    <img src="https://img.shields.io/github/issues/andre2l2/drawing-with-css">
+<p/>
 
 I create this repository for draw and animate with CSS. Where each directory is a different project.
 
@@ -15,7 +17,8 @@ I create this repository for draw and animate with CSS. Where each directory is 
 - <a href="./House">HOUSE</a>
 - <a href="./Terminal">TERMINAL</a>
 - <a href="./Ipad">IPAD</a>
-- <a href="./Loading">Loading</a>
+- <a href="./Loading">LOADING</a>
+- <a href="./Car">CAR</a>
 
 ## how do you contribute this project
 

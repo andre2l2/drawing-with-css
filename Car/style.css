@@ -1,0 +1,64 @@
+:root {
+	--car-collor: #fff;
+	--sky-collor: #22223b;
+	--wheels-collor: #fff;
+	--glass-collor: #a9d6e5;
+}
+
+section {
+	height: 100vh;
+	background-color: var(--sky-collor);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section main {
+	position: relative;
+}
+
+section main div.car {
+	width: 500px;
+	height: 150px;
+	background-color: var(--car-collor);
+	border-radius: 0 100% 40px 0;
+}
+
+section main div.wheels {
+	width: 100px;
+	height: 100px;
+	background-color: var(--wheels-collor);
+	border-radius: 100%;
+	border: solid 10px var(--sky-collor);
+}
+
+section main div.wheels:nth-child(1n) {
+	top: 100%;
+	left: 20px;
+	transform: translate(0, -50%);
+	position: absolute;
+}
+
+section main div.wheels:nth-child(2n) {
+	top: 100%;
+	left: 90%;
+	transform: translate(-100%, -50%);
+	position: absolute;
+}
+
+section main div.back-light {
+	width: 10px;
+	height: 40px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+}
+
+section main div.arrow-light {
+	width: 10px;
+	height: 10px;
+	background-color: orange;
+	position: absolute;
+	top: 45%;
+}
