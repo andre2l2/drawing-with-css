@@ -8,7 +8,7 @@
     <img src="https://img.shields.io/github/issues/andre2l2/drawing-with-css">
 <p/>
 
-I create this repository for draw and animate with CSS. Where each directory is a different project.
+I create this repository for draw and animate with CSS and JavaScript 💛. Where each directory is a different project.
 
 ## Projects:
 
@@ -24,4 +24,4 @@ I create this repository for draw and animate with CSS. Where each directory is 
 
 ## how do you contribute this project
 
-You can draw in css? So you can help me. First make **Fork** this way repository and crate your drow, so you commit for me. Thenks you!
+You can draw in css? So you can help me. First make **Fork** this repository and crate your drow. So you can create a pull request for me. Thenks!
