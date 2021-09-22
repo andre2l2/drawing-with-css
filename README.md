@@ -19,6 +19,8 @@ I create this repository for draw and animate with CSS. Where each directory is 
 - <a href="./Ipad">IPAD</a>
 - <a href="./Loading">LOADING</a>
 - <a href="./Car">CAR</a>
+- <a href="./SlideButton">SLIDE BUTTON</a>
+- <a href="./DragWindow">DRAG WINDOW</a>
 
 ## how do you contribute this project
 

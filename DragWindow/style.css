@@ -1,0 +1,21 @@
+body {
+	height: 100vh;
+}
+
+p {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.move {
+	width: 200px;
+	height: 200px;
+
+	cursor: grab;
+
+	background-color: darkcyan;
+	position: absolute;
+}

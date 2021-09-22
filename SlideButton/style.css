@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background 1s;
+}
+
+.s-slide {
+	width: 100px;
+	margin: 100px;
+	background-color: #7178ff;
+	border-radius: 27px;
+	padding: 5px;
+	-webkit-appearance: none;
+}
+
+.s-slide::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	cursor: pointer;
+	background: #ffffff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
